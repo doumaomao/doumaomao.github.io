@@ -1,16 +1,15 @@
-p {background-color: gray; padding: 20px;}
 h2 {
     color: red;
     text-align: left;
     font-size: 8pt;
+    font-family: Georgia;
 }
-
 h4 {
     color: red;
     text-align: left;
     font-size: 8pt;
+    font-family: Georgia;
 }
-
 body
 { 
     background-position:center;
