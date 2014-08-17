@@ -1,12 +1,17 @@
-hr {color: sienna;}
 p {background-color: gray; padding: 20px;}
-h3 {
+h2 {
     color: red;
     text-align: left;
     font-size: 8pt;
 }
+
+h4 {
+    color: red;
+    text-align: left;
+    font-size: 8pt;
+}
+
 body
 { 
-    background-repeat:no-repeat;
     background-position:center;
 }
