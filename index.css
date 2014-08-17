@@ -1,7 +1,7 @@
 h2 {
-    color: red;
+    color: color:#00ff00;
     text-align: left;
-    font-size: 8pt;
+    font-size: 12pt;
     font-family: Georgia;
 }
 h4 {
@@ -10,6 +10,7 @@ h4 {
     font-size: 8pt;
     font-family: Georgia;
 }
+p {color:rgb(0,0,255)}
 body
 { 
     background-position:center;
