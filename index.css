@@ -1,0 +1,13 @@
+hr {color: sienna;}
+p {background-color: gray; padding: 20px;}
+h3 {
+    color: red;
+    text-align: left;
+    font-size: 8pt;
+}
+h4 {letter-spacing: 20px}
+body
+{ 
+    background-repeat:no-repeat;
+    background-position:center;
+}
