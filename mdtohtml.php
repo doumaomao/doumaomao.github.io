@@ -10,8 +10,17 @@ if ( !is_file($md_path) )
     return false;
 }
 $markdown = file_get_contents($md_path);
-$res = $Parsedown->text($markdown);
-var_dump($res);
+$res = "<html>";
+$res .= "<head>";
+$res .= "<title>test</title>";
+$res .= "<link href=\"https://github.com/doumaomao/doumaomao.github.io/blob/master/index.css\" rel=\"stylesheet\">";
+$res .= "</head>";
+$res .= "<body>";
+
+
+$res .= $Parsedown->text($markdown);
+$res .= "<body>";
+$res .= "</html>";
 
 
 $filename="index1.html";
