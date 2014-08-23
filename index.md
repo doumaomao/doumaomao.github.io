@@ -17,9 +17,17 @@ You cannot improve your past, but you can improve your future. Once time is wast
   {% endfor %}
 </ul>
 
-## To-Do
+## Happy Life
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+ - Where there is life, there is hope. 
+ - the early bird catches the worm.
+ - Learn and live.
 
+
+
+
+
+
+
+ - 
 
