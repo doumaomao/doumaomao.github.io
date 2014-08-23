@@ -5,10 +5,10 @@ tagline: Doumao's little space
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## Preface
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-    
+You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+
 ## My Articles
 
 <ul class="posts">
