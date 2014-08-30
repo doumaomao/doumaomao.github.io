@@ -50,7 +50,6 @@ ASCII/GBK/BIG5/ANSI/GB18030/GB2310/UTF-7/UTF-8/UTF-16/UTF-32/Unicode/UCS/JIS
 目前能想到的就这些。虽然已经了解了字符发展的三个阶段，但是面对这么多名词，还是有点晕。现在梳理如下：
 
  - ASCII阶段
-	
 	 - ASCII编码
  - ANSI阶段
 	 - GBK
@@ -68,8 +67,6 @@ ASCII/GBK/BIG5/ANSI/GB18030/GB2310/UTF-7/UTF-8/UTF-16/UTF-32/Unicode/UCS/JIS
 		 - UTF-8
 		 - UTF-16
 		 - UTF-32
-	
-
 上述的组织结构图，可以基本表示名词之间的关系。为了更清楚理解一些字符集，针对一些典型的名词作解释。
 目光拉到unicode阶段，被很多人称之为伟大的阶段。这个阶段的unicode和ucs解释如下：
 
