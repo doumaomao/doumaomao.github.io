@@ -20,5 +20,5 @@ You cannot improve your past, but you can improve your future. Once time is wast
 ## Happy Life
 
  - Where there is life, there is hope. 
- - the early bird catches the worm.
+ - The early bird catches the worm.
  - Learn and live.
