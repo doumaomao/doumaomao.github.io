@@ -24,16 +24,16 @@ tags: php
  - 打印入参也没问题。实在不行了，单挑出来preg系列的preg_match来看是不是match上了，要是都match不上，那还替换啥！
  - 最后写了如下代码执行后，返回的false,并且报错说我缺了个']'与其匹配。
  
-```
-<?php 
-$pattern='/淸/';
-$txt='淸_哈哈_我来试试';
-$match = preg_match($pattern, $txt);
-if ($match===false) {
-    echo 'fail';
-}
-?> 
-```
+
+    <?php 
+    $pattern='/淸/';
+    $txt='淸_哈哈_我来试试';
+    $match = preg_match($pattern, $txt);
+    if ($match===false) {
+        echo 'fail';
+    }
+    ?> 
+
 
 #####3.真相浮出,UTF-8才是王道
  - 在执行该段代码后，我先确认了下我的编码格式是**GBK**，接着我又试了下将文件编码整体改为**UTF-8**，执行后就通过了。这么看是编码问题了啊。
