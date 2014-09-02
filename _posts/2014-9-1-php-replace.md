@@ -47,15 +47,138 @@ tags: php
 	 - 一种就是长线方案，即代码UTF-8化
 
 #####4.小结
-上述排查让我很有兴趣去查看下，php的preg等匹配替换系列的函数源码以及mb_ereg系列的学习。并且再一次深深体会，还是utf-8设计贴心！！
+上述排查让我很有兴趣去查看下，php的preg等匹配替换系列的函数以及mb_ereg系列的学习。并且再一次深深体会，还是utf-8设计贴心！！
 
 ####php替换函数的学习
 
 
 ----------
 
-#####1.php替换函数有哪些
+#####php替换函数有哪些
+
+ - str_replace
+ - substr_replace
+ - preg_replace
+ - preg_split
+ - str_split
 
 
+#####str_replace
+**作用**：str_replace() 函数使用一个字符串替换字符串中的另一些字符。
+**参数描述** 
+find 必需。规定要查找的值。 
+replace 必需。规定替换 find 中的值的值。 
+string 必需。规定被搜索的字符串。 
+count 可选。一个变量，对替换数进行计数。
+**举例-1**
+    <?php
+        $arr = array("blue","red","green","yellow");
+        print_r(str_replace("red","pink",$arr,$i));
+        echo "Replacements: $i";
+    ?>
+**输出**：
+    Array
+    (
+        [0] => blue
+        [1] => pink
+        [2] => green
+        [3] => yellow
+    )
+    Replacements: 1
+#####substr_replace
+**作用**：substr_replace() 函数把字符串的一部分替换为另一个字符串。
+**参数描述** 
+
+ - string 必需。规定要检查的字符串。 
+ - replacement 必需。规定要插入的字符串。 
+ - start 必需。规定在字符串的何处开始替换。
+	 - 正数 - 在第 start 个偏移量开始替换
+	 - 负数 - 在从字符串结尾的第 start 个偏移量开始替换
+	 - 在字符串中的第一个字符处开始替换
+ 
+ - charlist 可选。规定要替换多少个字符。
+	 - 正数 - 被替换的字符串长度
+	 - 负数 - 从字符串末端开始的被替换字符数
+	 - 插入而非替换
 
 
+**举例-1**
+    <?php
+        echo substr_replace("Hello world","earth",6);
+    ?>
+**输出**：
+    Hello earth
+#####preg_replace
+**作用**：执行一个正则表达式的搜索和替换
+**参数描述** 
+pattern 必需。需要搜索的模式。 
+replacement 必需。用于替换的字符串或数组。 
+subject 必需。需要替换的字符串或数组。 
+limit 替换的次数。-1为无限 
+count 完成替换的次数，变量
+
+**举例-1**
+    <?php
+        $string = 'April 15, 2003';
+        $pattern = '/(w+) (d+), (d+)/i';
+        $replacement = '${1}1,$3';
+        echo preg_replace($pattern, $replacement, $string);
+    ?>
+**输出**
+    April1,2003
+
+**举例-1**
+    <?php
+        $string = 'The quick brown fox jumped over the lazy dog.';
+        $patterns = array();
+        $patterns[0] = '/quick/';
+        $patterns[1] = '/brown/';
+        $patterns[2] = '/fox/';
+        $replacements = array();
+        $replacements[2] = 'bear';
+        $replacements[1] = 'black';
+        $replacements[0] = 'slow';
+        echo preg_replace($patterns, $replacements, $string);
+    ?>
+**输出**
+    The bear black slow jumped over the lazy dog.
+
+
+#####preg_split
+**作用**：通过正则表达式分割字符串
+**参数描述** 
+pattern 必需。需要搜索的模式。 
+replacement 必需。用于替换的字符串或数组。 
+subject 必需。需要替换的字符串。 
+limit 被分割的字符串最多limit。 
+flag 模式
+
+#####str_split
+**作用**：将字符串分割成数组
+**参数描述** 
+subject 字符串。 
+length 每一段的长度。
+
+**举例-1**
+<?php
+print_r(str_split("Hello"));
+?>
+输出
+Array
+(
+[0] => H
+[1] => e
+[2] => l
+[3] => l
+[4] => o
+)
+**举例-2**
+    <?php
+        print_r(str_split("Hello",3));
+    ?>
+**输出**
+    Array
+    (
+        [0] => Hel
+        [1] => lo
+    )
