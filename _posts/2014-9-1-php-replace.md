@@ -119,6 +119,10 @@ tags: php
 	
  - **输出**：
 
+ 
+    Hello earth
+	
+	
 
 #####preg_replace
 
@@ -177,22 +181,106 @@ tags: php
 
  - **作用**：通过正则表达式分割字符串
  - **参数描述** 
-pattern 必需。需要搜索的模式。 
-replacement 必需。用于替换的字符串或数组。 
-subject 必需。需要替换的字符串。 
-limit 被分割的字符串最多limit。 
-flag 模式
+	 - pattern 必需。需要搜索的模式。 
+	 - replacement 必需。用于替换的字符串或数组。 
+	 - subject 必需。需要替换的字符串。 
+	 - limit 被分割的字符串最多limit。
+	 - flag 模式
 
+	 
+- **举例-1** 
+
+
+	 <?php
+        //使用逗号或空格(包含" ", \r, \t, \n, \f)分隔短语
+        $keywords = preg_split("/[\s,]+/", "hypertext language, programming");
+        print_r($keywords);
+    ?>
+	
+- **输出** 
+	
+	
+    Array
+    (
+        [0] => hypertext
+        [1] => language
+        [2] => programming
+    )
+	
+- **举例-2** 
+
+    <?php
+        $str = 'string';
+        $chars = preg_split('//', $str, -1, PREG_SPLIT_NO_EMPTY);
+        print_r($chars);
+    ?>
+
+
+- **输出** 
+	
+	
+    Array
+    (
+        [0] => s
+        [1] => t
+        [2] => r
+        [3] => i
+        [4] => n
+        [5] => g
+    )
+	
+	
+- **举例-3**
+
+ 	
+    <?php
+        $str = 'hypertext language programming';
+        $chars = preg_split('/ /', $str, -1, PREG_SPLIT_OFFSET_CAPTURE);
+        print_r($chars);
+    ?>
+	
+- **输出**
+
+
+    Array
+    (
+    [0] => Array
+        (
+            [0] => hypertext
+            [1] => 0
+        )
+
+    [1] => Array
+        (
+            [0] => language
+            [1] => 10
+        )
+
+    [2] => Array
+        (
+            [0] => programming
+            [1] => 19
+        )
+
+    )
+	
+	
 #####str_split
 
  - **作用**：将字符串分割成数组
  - **参数描述** 
-subject 字符串。 
-length 每一段的长度。
+	 - subject 字符串。 
+	 - length 每一段的长度。
+
+
  - **举例-1**
+ 
+ 
     <?php
         print_r(str_split("Hello"));
     ?>
+	
+	
  - **输出**
  
  
@@ -215,8 +303,12 @@ length 每一段的长度。
 	
 	
  - **输出**
+ 
+ 
     Array
     (
         [0] => Hel
         [1] => lo
     )
+	
+	
