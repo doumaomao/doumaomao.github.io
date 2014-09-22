@@ -78,11 +78,9 @@ tags: php
         print_r(str_replace("red","pink",$arr,$i));
         echo "Replacements: $i";
     ?>
-    
 	
  - **输出**
- 
- 
+
     Array
     (
         [0] => blue
@@ -108,6 +106,7 @@ tags: php
 		 - 0 - 插入而非替换
 		 
 		 
+
  - **举例-1**
 
  
