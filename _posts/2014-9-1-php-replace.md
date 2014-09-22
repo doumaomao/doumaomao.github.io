@@ -73,7 +73,6 @@ tags: php
 	 - count 可选。一个变量，对替换数进行计数。
  - **举例-1**
  
- 
     <?php
         $arr = array("blue","red","green","yellow");
         print_r(str_replace("red","pink",$arr,$i));
