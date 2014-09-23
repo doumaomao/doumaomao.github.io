@@ -73,14 +73,18 @@ tags: php
 	 - string 必需。规定被搜索的字符串。 
 	 - count 可选。一个变量，对替换数进行计数。
  - **举例-1**
- 
+
+代码如下：
+
     <?php
         $arr = array("blue","red","green","yellow");
         print_r(str_replace("red","pink",$arr,$i));
         echo "Replacements: $i";
     ?>
 	
+
  - **输出**
+
 
     Array
     (
@@ -92,6 +96,8 @@ tags: php
     Replacements: 1
 	
 	
+	
+
 #####substr_replace
  - **作用**：substr_replace() 函数把字符串的一部分替换为另一个字符串。
  - **参数描述** 
@@ -110,11 +116,12 @@ tags: php
 
  - **举例-1**
 
- 
+
     <?php
         echo substr_replace("Hello world","earth",6);
     ?>
     
+
 	
  - **输出**：
 
@@ -154,7 +161,7 @@ tags: php
 	
  - **举例-2**
  
- 
+
     <?php
         $string = 'The quick brown fox jumped over the lazy dog.';
         $patterns = array();
