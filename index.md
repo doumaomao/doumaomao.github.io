@@ -5,11 +5,11 @@ tagline: Doumao's little space
 ---
 {% include JB/setup %}
 
-## Preface
+### Preface
 
 You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
 
-## My Articles
+### My Articles
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -17,7 +17,7 @@ You cannot improve your past, but you can improve your future. Once time is wast
   {% endfor %}
 </ul>
 
-## Happy Life
+### Happy Life
 
  - Where there is life, there is hope. 
  - The early bird catches the worm.
