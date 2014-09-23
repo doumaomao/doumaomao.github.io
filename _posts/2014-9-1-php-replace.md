@@ -1,8 +1,8 @@
 ---
 date: 2014-09-01 15:08:31+00:00
 layout: post
-title: Interesting about PHP replacement
-categories: 文档
+title: PHP GBK String Replacement
+categories: doc
 tags: php
 ---
 

@@ -1,8 +1,8 @@
 ---
 date: 2014-08-26 10:00:31+00:00
 layout: post
-title: Hearing sense of character encoding
-categories: 文档
+title: Introduction of Character Encoding
+categories: doc
 tags: 字符编码
 ---
 
