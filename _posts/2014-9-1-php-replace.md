@@ -83,8 +83,7 @@ tags: php
     ?>
 	
 
- - **输出**
-
+输出如下：
 
     Array
     (
@@ -116,16 +115,15 @@ tags: php
 
  - **举例-1**
 
+代码如下：
 
     <?php
         echo substr_replace("Hello world","earth",6);
     ?>
     
 
-	
- - **输出**：
+输出如下：
 
- 
     Hello earth
 	
 	
@@ -142,7 +140,8 @@ tags: php
 	 - count 完成替换的次数，变量
 
  - **举例-1**
- 
+
+代码如下：
  
     <?php
         $string = 'April 15, 2003';
@@ -152,15 +151,15 @@ tags: php
     ?>
 
 	
- - **输出**
- 
- 
+输出如下：
+
     April1,2003
 
 	
 	
  - **举例-2**
- 
+
+代码如下：
 
     <?php
         $string = 'The quick brown fox jumped over the lazy dog.';
@@ -176,10 +175,8 @@ tags: php
     ?>
 
 	
-	
- - **输出**
- 
- 
+输出如下：
+
     The bear black slow jumped over the lazy dog.
 
 
@@ -196,16 +193,16 @@ tags: php
 	 
 - **举例-1** 
 
+代码如下：
 
-	 <?php
+	<?php
         //使用逗号或空格(包含" ", \r, \t, \n, \f)分隔短语
         $keywords = preg_split("/[\s,]+/", "hypertext language, programming");
         print_r($keywords);
     ?>
 	
-- **输出** 
-	
-	
+输出如下：
+
     Array
     (
         [0] => hypertext
@@ -215,6 +212,8 @@ tags: php
 	
 - **举例-2** 
 
+代码如下：
+
     <?php
         $str = 'string';
         $chars = preg_split('//', $str, -1, PREG_SPLIT_NO_EMPTY);
@@ -222,9 +221,8 @@ tags: php
     ?>
 
 
-- **输出** 
-	
-	
+输出如下：
+
     Array
     (
         [0] => s
@@ -238,15 +236,15 @@ tags: php
 	
 - **举例-3**
 
- 	
+代码如下：
+
     <?php
         $str = 'hypertext language programming';
         $chars = preg_split('/ /', $str, -1, PREG_SPLIT_OFFSET_CAPTURE);
         print_r($chars);
     ?>
 	
-- **输出**
-
+输出如下：
 
     Array
     (
@@ -280,16 +278,16 @@ tags: php
 
 
  - **举例-1**
- 
- 
+
+代码如下：
+
     <?php
         print_r(str_split("Hello"));
     ?>
 	
 	
- - **输出**
- 
- 
+输出如下：
+
     Array
     (
         [0] => H
@@ -301,16 +299,16 @@ tags: php
 	
 	
  - **举例-2**
- 
- 
+
+代码如下：
+
     <?php
         print_r(str_split("Hello",3));
     ?>
 	
 	
- - **输出**
- 
- 
+输出如下：
+
     Array
     (
         [0] => Hel
