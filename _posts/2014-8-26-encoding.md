@@ -1,7 +1,7 @@
 ---
 date: 2014-08-26 10:00:31+00:00
 layout: post
-title: 字符编码听后感
+title: Hearing sense of character encoding
 categories: 文档
 tags: 字符编码
 ---
