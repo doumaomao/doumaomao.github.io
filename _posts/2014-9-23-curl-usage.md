@@ -22,3 +22,8 @@ tags: php
 - curl --user name:password example.com 对于一些需要用户名密码认证的url，可以通过该方式认证
 
 ### python中的使用
+
+    cmd = 'curl --data "method=testService&test1=1&test2=testvalue" http://example.com' % testvalue
+    handle = subprocess.Popen(cmd,shell=TRUE,stdout=subprocess.PIPE)
+	
+在cmd中,定义了curl的POST命令。再利用python的创建子进程函数，将其当做sell字符串执行，获取返回值。
