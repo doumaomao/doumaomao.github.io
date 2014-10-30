@@ -27,7 +27,23 @@ tags: MYSQL学习
 	
 	call pro_create(32);`
 
-	
+#####数据库备份
+
+将forum_role下的forum_user_role表导出到mysql.dbname文件中
+
+    ./bin/mysqldump -u root -proot forum_role forum_user_role > mysql.dbname 
+
+将forum_info文件中的数据导入forum_role数据库中
+
+    /home/xxx/mysql5/bin/mysql -uroot -proot -h127.0.0.1 -P3346 forum_role < forum_info           
+
+从forum_info中获取数据写入文件名中
+
+    select * from forum_info into outfile  '文件名'
+
+将文件名中的数据导入表中
+
+    load data local infile "/home/database/mysql5.0.51b/doumaoli.sql" into table forum_info;
 	
  
 
