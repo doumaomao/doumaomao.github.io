@@ -13,17 +13,17 @@ tags: TEST
 
 #####输出打印
 
- 1. 常规打印
+ - 常规打印
 
-    i = 5 
+    i = 5
     print i
     s = '''this is a test'''
     print s
-    length = 5.2 
-    breadth = 2.2 
+    length = 5.2
+    breadth = 2.2
     area =  length * breadth
     print 'area is',area
-    print 'hello world' 
+    print 'hello world'
 
 结果如下：
 
@@ -32,8 +32,7 @@ tags: TEST
     area is 11.44
     hello world
 
-
- 2. 格式化输出整数
+ - 格式化输出整数
 
     strHello = "the length of (%s) is %d" %('hello world',len('hello world'))
     print strHello
@@ -43,7 +42,7 @@ tags: TEST
 
     the length of (hello world) is 11
 
- 3. 格式化输出字符串
+ - 格式化输出字符串
 
     print "%.3s " % ("jcodeer")
     print "%10.3s" % ("jcodeer")
@@ -55,7 +54,7 @@ tags: TEST
 
 #####循环遍历&判断
 
- 1. 普通while循环
+ - 普通while循环
 
      count = 0 
     while (count < 3): 
@@ -70,7 +69,7 @@ tags: TEST
     the count is 2
     end the game
 
- 2. 含有break的while循环
+ - 含有break的while循环
 
     i = 1 
     while 1:
@@ -86,7 +85,7 @@ tags: TEST
     3
     4
 
- 3. 含有continue的while循环
+ - 含有continue的while循环
 
     i = 1 
     while i < 4:
@@ -100,7 +99,7 @@ tags: TEST
     2
     4
 
- 4. 带有else的while循环
+ - 带有else的while循环
 
     count = 0 
     while count < 3:
@@ -116,7 +115,7 @@ tags: TEST
     2 is less than 3
     3 is not less than 3
 
- 5. 普通for循环
+ - 普通for循环
 
     for letter in 'dou':
         print 'the current letter is',letter
@@ -132,7 +131,7 @@ tags: TEST
     the current fruit is hello
     the current fruit is world
 
- 6. 序列索引迭代的for循环
+ - 序列索引迭代的for循环
 
     fruits = ['banana','apple','mango']
     for index in range(len(fruits)):
@@ -148,7 +147,7 @@ tags: TEST
     2
     current fruit : mango
 
- 7. 元组for循环
+ - 元组for循环
 
     x = [('html','css'),('php','python')]
     for a in x:
@@ -159,7 +158,7 @@ tags: TEST
     html
     php
 
- 8. 带有else的for循环
+ - 带有else的for循环
 
     x = [1,2]
     for i in x:
@@ -175,7 +174,8 @@ tags: TEST
 
 #####字符串操作
 
- 1. 去空格及特殊符号
+ - 去空格及特殊符号
+
  
 
     s = ',"  \nello,world   '
@@ -187,12 +187,13 @@ tags: TEST
 
     ello,world
 
- 2. 原生字符串打印
+ - 原生字符串打印
+
  
     s = r',"  \nello,world   '
     print s
 
- 3. 复制字符串
+ - 复制字符串
 
     str1 = 'doumao'
     str2 = str1
@@ -202,7 +203,8 @@ tags: TEST
 
     doumao
 
- 4. 连接字符串
+ - 连接字符串
+
  
 
     str1 = 'hello'
@@ -214,7 +216,7 @@ tags: TEST
 
     hellodoumao
 
- 5. 查找字符
+ - 查找字符
 
     str1 = 'hello doumao'
     str2 = 'l' 
@@ -225,7 +227,7 @@ tags: TEST
 
     2
 
- 6. 比较字符串
+ - 比较字符串
 
     str1 = 'abcde'
     str2 = 'abcd'
@@ -235,7 +237,7 @@ tags: TEST
 
     1
 
- 7. 两个字符串长度的最小值
+ - 两个字符串长度的最小值
 
     str1 = 'lidoumao'
     str2 = 'haha'
@@ -245,7 +247,7 @@ tags: TEST
 
     4
 
- 8. 字符串长度
+ - 字符串长度
 
     str = 'nihaodoumao'
     print len(str)
@@ -254,7 +256,7 @@ tags: TEST
 
     11
 
- 9. 将字符串中的大小写转换
+ - 将字符串中的大小写转换
 
     str = 'ABCabc'
     str1 = str.upper()
@@ -267,7 +269,7 @@ tags: TEST
     ABCABC
     abcabc
 
- 10. 追加指定长度的字符串
+ - 追加指定长度的字符串
 
     str1 = '12345'
     str2 = 'abcde'
@@ -279,7 +281,7 @@ tags: TEST
 
     12345abc
 
- 11. 字符串指定长度比较
+ - 字符串指定长度比较
 
     str1 = 'abedaaaa'
     str2 = 'abcd'
@@ -290,7 +292,7 @@ tags: TEST
 
     1
 
- 12. 复制指定长度的字符
+ - 复制指定长度的字符
 
     str1 = 'doumaomao'
     n = 6 
@@ -301,7 +303,7 @@ tags: TEST
 
     doumao
 
- 13. 将字符串前n个字符替换为指定的字符
+ - 将字符串前n个字符替换为指定的字符
 
     str1 = '12345'
     ch = 'r' 
@@ -313,7 +315,7 @@ tags: TEST
 
     rrr345
 
- 14. 扫描字符串
+ - 扫描字符串
 
     str1 = 'abcdefg'
     str2 = 'cf'
@@ -329,7 +331,7 @@ tags: TEST
     2
     5
 
- 15. 翻转字符串
+ - 翻转字符串
 
     str1 = 'abcdefg'
     str1 = str1[::-1]
@@ -339,7 +341,7 @@ tags: TEST
 
     gfedcba
 
- 16. 查找字符串
+ - 查找字符串
 
     str1 = 'abcdefg'
     str2 = 'ef'
@@ -349,7 +351,7 @@ tags: TEST
 
     4
 
- 17. 分割字符串
+ - 分割字符串
 
     str = 'dou,mao'
     print(str.split(','))
@@ -358,7 +360,7 @@ tags: TEST
 
     ['dou', 'mao']
 
- 20. 截取字符串
+ - 截取字符串
 
     str = ’0123456789′
     print str[0:3] #截取第一位到第三位的字符
@@ -371,7 +373,7 @@ tags: TEST
     print str[-3:-1] #截取倒数第三位与倒数第一位之前的字符
     print str[-3:] #截取倒数第三位到结尾
 
- 21. 字符串替换
+ - 字符串替换
 
     a = 'hello world'
     print a.replace('world','doumao')
@@ -380,7 +382,7 @@ tags: TEST
 
     hello doumao
 
- 22. 字符串正则替换
+ - 字符串正则替换
 
     import re
     a = 'hello 123 world 345'
