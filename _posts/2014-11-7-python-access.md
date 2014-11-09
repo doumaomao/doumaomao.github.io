@@ -36,6 +36,8 @@ tags: TEST
 
  - 格式化输出整数
 
+示例代码：
+
     strHello = "the length of (%s) is %d" %('hello world',len('hello world'))
     print strHello
 
@@ -45,6 +47,9 @@ tags: TEST
     the length of (hello world) is 11
 
  - 格式化输出字符串
+
+示例代码：
+
 
     print "%.3s " % ("jcodeer")
     print "%10.3s" % ("jcodeer")
@@ -57,8 +62,10 @@ tags: TEST
 #####循环遍历&判断
 
  - 普通while循环
+ 
+示例代码：
 
-     count = 0 
+    count = 0 
     while (count < 3): 
         print 'the count is',count
         count = count+1
@@ -73,6 +80,8 @@ tags: TEST
 
  - 含有break的while循环
 
+示例代码：
+
     i = 1 
     while 1:
         print i
@@ -80,7 +89,7 @@ tags: TEST
         if i > 4:
             break
 
-结果如下
+结果如下：
 
     1
     2
@@ -88,6 +97,8 @@ tags: TEST
     4
 
  - 含有continue的while循环
+
+示例代码:
 
     i = 1 
     while i < 4:
@@ -102,6 +113,8 @@ tags: TEST
     4
 
  - 带有else的while循环
+
+示例代码:
 
     count = 0 
     while count < 3:
@@ -119,6 +132,8 @@ tags: TEST
 
  - 普通for循环
 
+示例代码:
+
     for letter in 'dou':
         print 'the current letter is',letter
     fruits = ['hello','world']
@@ -134,6 +149,8 @@ tags: TEST
     the current fruit is world
 
  - 序列索引迭代的for循环
+
+示例代码:
 
     fruits = ['banana','apple','mango']
     for index in range(len(fruits)):
@@ -151,6 +168,8 @@ tags: TEST
 
  - 元组for循环
 
+示例代码:
+
     x = [('html','css'),('php','python')]
     for a in x:
         print a[0]
@@ -161,6 +180,8 @@ tags: TEST
     php
 
  - 带有else的for循环
+
+示例代码:
 
     x = [1,2]
     for i in x:
@@ -179,6 +200,7 @@ tags: TEST
  - 去空格及特殊符号
 
  
+示例代码:
 
     s = ',"  \nello,world   '
     s = s.lstrip(',"').strip().rstrip('')
@@ -191,11 +213,14 @@ tags: TEST
 
  - 原生字符串打印
 
- 
+示例代码:
+
     s = r',"  \nello,world   '
     print s
 
  - 复制字符串
+
+示例代码:
 
     str1 = 'doumao'
     str2 = str1
@@ -207,7 +232,8 @@ tags: TEST
 
  - 连接字符串
 
- 
+示例代码:
+
 
     str1 = 'hello'
     str2 = 'doumao'
@@ -220,6 +246,8 @@ tags: TEST
 
  - 查找字符
 
+示例代码:
+
     str1 = 'hello doumao'
     str2 = 'l' 
     pos =  str1.index(str2)
@@ -231,6 +259,8 @@ tags: TEST
 
  - 比较字符串
 
+示例代码:
+
     str1 = 'abcde'
     str2 = 'abcd'
     print(cmp(str1,str2))
@@ -240,6 +270,8 @@ tags: TEST
     1
 
  - 两个字符串长度的最小值
+
+示例代码:
 
     str1 = 'lidoumao'
     str2 = 'haha'
@@ -251,6 +283,8 @@ tags: TEST
 
  - 字符串长度
 
+示例代码:
+
     str = 'nihaodoumao'
     print len(str)
 
@@ -259,6 +293,8 @@ tags: TEST
     11
 
  - 将字符串中的大小写转换
+
+示例代码:
 
     str = 'ABCabc'
     str1 = str.upper()
@@ -273,6 +309,8 @@ tags: TEST
 
  - 追加指定长度的字符串
 
+示例代码:
+
     str1 = '12345'
     str2 = 'abcde'
     n = 3 
@@ -285,6 +323,8 @@ tags: TEST
 
  - 字符串指定长度比较
 
+示例代码:
+
     str1 = 'abedaaaa'
     str2 = 'abcd'
     n = 3 
@@ -295,6 +335,8 @@ tags: TEST
     1
 
  - 复制指定长度的字符
+
+示例代码:
 
     str1 = 'doumaomao'
     n = 6 
@@ -307,6 +349,8 @@ tags: TEST
 
  - 将字符串前n个字符替换为指定的字符
 
+示例代码:
+
     str1 = '12345'
     ch = 'r' 
     n = 3 
@@ -318,6 +362,8 @@ tags: TEST
     rrr345
 
  - 扫描字符串
+
+示例代码:
 
     str1 = 'abcdefg'
     str2 = 'cf'
@@ -335,6 +381,8 @@ tags: TEST
 
  - 翻转字符串
 
+示例代码:
+
     str1 = 'abcdefg'
     str1 = str1[::-1]
     print str1
@@ -344,6 +392,8 @@ tags: TEST
     gfedcba
 
  - 查找字符串
+
+示例代码:
 
     str1 = 'abcdefg'
     str2 = 'ef'
@@ -355,6 +405,8 @@ tags: TEST
 
  - 分割字符串
 
+示例代码:
+
     str = 'dou,mao'
     print(str.split(','))
 
@@ -363,6 +415,8 @@ tags: TEST
     ['dou', 'mao']
 
  - 截取字符串
+
+示例代码:
 
     str = ’0123456789′
     print str[0:3] #截取第一位到第三位的字符
@@ -377,6 +431,8 @@ tags: TEST
 
  - 字符串替换
 
+示例代码:
+
     a = 'hello world'
     print a.replace('world','doumao')
 
@@ -385,6 +441,8 @@ tags: TEST
     hello doumao
 
  - 字符串正则替换
+
+示例代码:
 
     import re
     a = 'hello 123 world 345'
