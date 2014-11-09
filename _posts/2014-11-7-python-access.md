@@ -9,6 +9,8 @@ tags: TEST
 
 
 ----------
+
+
 #####输出打印
 
  1. 常规打印
@@ -33,9 +35,10 @@ tags: TEST
 
  2. 格式化输出整数
 
-     strHello = "the length of (%s) is %d" %('hello world',len('hello world'))
+    strHello = "the length of (%s) is %d" %('hello world',len('hello world'))
     print strHello
-    
+
+
 结果如下：
 
     the length of (hello world) is 11
@@ -75,7 +78,7 @@ tags: TEST
         i += 1
         if i > 4:
             break
-            
+
 结果如下
 
     1
@@ -175,18 +178,19 @@ tags: TEST
  1. 去空格及特殊符号
  
 
-     s = ',"  \nello,world   '
+    s = ',"  \nello,world   '
     s = s.lstrip(',"').strip().rstrip('')
     print s
-    
+
+
 结果如下：
 
     ello,world
 
  2. 原生字符串打印
  
- s = r',"  \nello,world   '
-print s
+    s = r',"  \nello,world   '
+    print s
 
  3. 复制字符串
 
@@ -201,7 +205,7 @@ print s
  4. 连接字符串
  
 
-     str1 = 'hello'
+    str1 = 'hello'
     str2 = 'doumao'
     str1 += str2
     print str1
@@ -233,7 +237,7 @@ print s
 
  7. 两个字符串长度的最小值
 
-     str1 = 'lidoumao'
+    str1 = 'lidoumao'
     str2 = 'haha'
     print(len(str1 and str2))
 
@@ -386,6 +390,7 @@ print s
 结果如下：
 
     hello doumao world doumao
+
 
 #####文件操作
 
