@@ -15,6 +15,8 @@ tags: TEST
 
  - 常规打印
 
+示例代码：
+
     i = 5
     print i
     s = '''this is a test'''
