@@ -10,7 +10,11 @@ tags: PYTHON
 
 ----------
 
+#####checkCode = chardet.detect(rpContent)
 
+编码
+
+环境变量
 
 
 #####文件操作
