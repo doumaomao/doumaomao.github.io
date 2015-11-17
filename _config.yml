@@ -1,15 +1,15 @@
 markdown: rdiscount
 permalink: /:title/
-url: http://github.thinkingbar.com
+url: http://doumaomao.github.io/
 #highlighter: pygments
 pygments: true
-name: 飘过的小牛
-description: 飘过的小牛 | Stop talking, start doing.
-author: niushuai
-email: hnns1990@gmail.com
-duoshuo: niushuai
-weibo: 1891858481
-hub: niushuai
+name: doumaomao
+description: doumaomao | day day up
+author: doumaomao
+email: 07068002@163.com
+duoshuo: doumaomao
+weibo: 洁小瑜
+hub: doumaomao
 safe: true
 paginate: 100
-about: "弱菜一枚。"
+about: "持续成长，心情愉悦"
