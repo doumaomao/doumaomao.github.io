@@ -1,9 +1,9 @@
 ---
 date: 2015-10-31 22:33:31+00:00
 layout: post
-title: OpenRestryCon大会
+title: OpenRestyCon大会
 categories: doc
-tags: mysql
+tags: nginx
 ---
 
 
