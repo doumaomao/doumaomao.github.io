@@ -1,11 +1,7 @@
-{% if site.duoshuo %}
-	{% if page.thread %}
-	<div class="ds-thread" data-thread-key="{{ page.thread }}" data-url="{{ site.url }}{{ page.url }}" data-title="{{ page.title }}" />
-	{% else %}
-	<div class="ds-thread" />
-	{% endif %}	
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
 	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"{{ site.duoshuo }}"};
+	var duoshuoQuery = {short_name:"webfrogs"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
@@ -15,4 +11,4 @@
 		|| document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
 	</script>
-{% endif %}
+<!-- Duoshuo Comment END -->
