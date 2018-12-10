@@ -12,7 +12,7 @@ tags: nginx
 ----------
 
 
-##openresty安装
+## openresty安装
 
  1. 从https://openresty.org/的download页面下载对应版本的openresty包
  2. `tar zxvf ngx_openresty-1.7.10.2.tar.gz`  
@@ -49,7 +49,7 @@ http {
 9. 针对上述6999端口要特别注意，一般办公网内对于端口会做一些安全限制，这块我就踩了坑。。。注意选取合适端口即可。
 10. 搭建成功，访问，展现“hello doumao”
 
-##openresty会议要点
+## openresty会议要点
 
 >针对openresty 围绕三个主题进行展开。分别是：整体架构、openresty的发展历程以及未来构划、业务应用场景。
 
@@ -57,20 +57,20 @@ http {
 a fast web app server by extending nginx - 这段英文形象解释了openresty。
 具体内容待整理笔记后追加。
 
-##open-resty实战项目
+## open-resty实战项目
 https://github.com/doumaomao/apigateway
 https://github.com/openresty/nginx-systemtap-toolkit
 https://github.com/openresty/stapxx
 https://github.com/openresty/nginx-gdb-utils
 https://github.com/agentzh/code2ebook
 
-##偶像们的博客
+## 偶像们的博客
 https://github.com/agentzh?tab=repositories
 https://github.com/yaoweibin/
 http://jinnianshilongnian.iteye.com/
 https://twitter.com/agentzh
 
-##resty开源社区
+## resty开源社区
 http://openresty.org/
 http://www.oschina.net/question/tag/openresty
 

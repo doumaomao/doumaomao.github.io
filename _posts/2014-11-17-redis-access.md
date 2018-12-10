@@ -5,12 +5,16 @@ title: Practical examples of the Redis
 categories: doc
 tags: Redis
 ---
-####Redis基础知识&使用
+
+
+
+
+# Redis基础知识&使用
 
 
 ----------
 
-#####Redis的基本结构
+## Redis的基本结构
 
  - string类型
 
@@ -47,7 +51,7 @@ tags: Redis
 
  - hash类型
 
-#####string类型操作
+### string类型操作
 
  - SET
 
@@ -130,7 +134,7 @@ tags: Redis
 > 解释：INCRBY key increment将key所储存的值加上增量increment。如果key不存在，以0为key的初始值，然后执行INCRBY命令。
 > 举例：INCRBY rank 20
 
-#####list类型操作
+### list类型操作
 
  - LPUSH
 
@@ -196,7 +200,7 @@ mylist c。
 > 解释：将值value插入到列表key当中，位于值pivot之前或之后。 
 > 举例：LINSERT key BEFORE|AFTER pivot value
 
-#####set类型操作
+### set类型操作
 
  - SADD
 
@@ -240,7 +244,7 @@ mylist c。
 > 解释：返回集合中的一个随机元素。 
 > 举例：SRANDMEMBER key
 
-#####zset类型操作
+### zset类型操作
 
  - ZADD
 
@@ -282,7 +286,7 @@ mylist c。
 > 解释：返回有序集key中成员member的排名。其中有序集成员按score值递增(从小到大)顺序排列 
 > 举例：ZRANK key member
 
-#####hash类型操作
+### hash类型操作
 
  - HSET
 
@@ -343,10 +347,4 @@ mylist c。
 
 > 解释：返回哈希表key中的所有值。 
 > 举例：HVALS key
-
-#####常用高级命令
-
-#####几大特性
-
-
 

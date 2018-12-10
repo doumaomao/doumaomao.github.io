@@ -8,7 +8,7 @@ tags: MYSQL学习
 
 ----------
 
-#####建多个名字不同但是结构相同的表
+## 建多个名字不同但是结构相同的表
  
 在mysql中执行如下命令，即可实现创建32个类似test_memo_user的表。
 
@@ -27,7 +27,7 @@ tags: MYSQL学习
 	
 	call pro_create(32);`
 
-#####数据库备份
+## 数据库备份
 
 将forum_role下的forum_user_role表导出到mysql.dbname文件中
 

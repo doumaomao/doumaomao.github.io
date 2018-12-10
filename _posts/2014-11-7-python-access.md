@@ -5,13 +5,16 @@ title: Getting python
 categories: doc
 tags: TEST
 ---
-####python入门
+
+
+
+#python入门
 
 
 ----------
 
 
-#####输出打印
+## 输出打印
 
  - 常规打印
 
@@ -59,7 +62,7 @@ tags: TEST
     jco
               jco
 
-#####循环遍历&判断
+## 循环遍历&判断
 
  - 普通while循环
  
@@ -195,7 +198,7 @@ tags: TEST
     2
     finished!
 
-#####字符串操作
+## 字符串操作
 
  - 去空格及特殊符号
 
@@ -454,7 +457,7 @@ tags: TEST
     hello doumao world doumao
 
 
-#####文件操作
+## 文件操作
 
  1. open
  2. file

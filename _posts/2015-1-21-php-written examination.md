@@ -6,14 +6,17 @@ categories: doc
 tags: php
 ---
 
-####php相关问题整理
+
+
+
+# php相关问题整理
 
 
 ----------
 引用url: 
 http://www.nowamagic.net/librarys/veda/detail/1936
 
- **1. 基本知识点**
+ **基本知识点**
 
  - HTTP协议中几个状态码的含义:503,500,401,200,301,302
 
@@ -76,7 +79,3 @@ http://www.nowamagic.net/librarys/veda/detail/1936
  
 
 > 参考这个对比 ：http://www.ha97.com/4197.html
-
-**2. web 架构，安全,项目经验**
- **3. unix/linux 基本使用**
- **4. 前端,HTML,JS**

@@ -9,7 +9,7 @@ tags: php
 ----------
 
 
-### curl命令使用
+## curl命令使用
 
 - curl www.baidu.com                   查看网页源码，前提是有权限
 - curl -o test www.baidu.com           查看网页代码，并且保存至test文件
@@ -21,7 +21,7 @@ tags: php
 - curl --header "Content-Type:application/json" http://example.com  curl增加头信息
 - curl --user name:password example.com 对于一些需要用户名密码认证的url，可以通过该方式认证
 
-### python中的使用
+## python中的使用
 
     cmd = 'curl --data "method=testService&test1=1&test2=testvalue" http://example.com' % testvalue
     handle = subprocess.Popen(cmd,shell=TRUE,stdout=subprocess.PIPE)

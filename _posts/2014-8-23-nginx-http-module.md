@@ -6,12 +6,12 @@ categories: doc
 tags: NGINX
 ---
 
-####http框架配置
+# http框架配置
 
 
 ----------
 
-#####1. 配置项简介
+## 1. 配置项简介
 http框架定义了3个级别的配置main,srv,loc.分别表示直接出现在http{},server{},location{}块内的配置项.
 
 > http模块提供三个回调方法create_main_conf、create_srv_conf、create_loc_conf负责把配置项的结构体传递给http框架。由于上述不用配置项的存在，实现这3个回调方法的意义是不同的。
@@ -19,7 +19,7 @@ http框架定义了3个级别的配置main,srv,loc.分别表示直接出现在ht
 这种设计更能增强http配置的灵活性而不用担心函数调用的耦合性。
 
 
-#####2. http配置项的解析方式
+## 2. http配置项的解析方式
 
  
 	struct ngx_command_s {
@@ -58,7 +58,7 @@ http框架定义了3个级别的配置main,srv,loc.分别表示直接出现在ht
 
  上面的offset成员，一个很重要的目的是加强nginx对预设配置项解析处理的通用性。nginx配置解析模块，在调用ngx_command_t结构体的set回调方法时，会同时把offset偏移位置传进来。
 
-#####3. http配置模型
+## 3. http配置模型
 nginx的14种预设配置项，支持了包括指令参数为布尔值、数字、空间大小、时间长短、枚举值等多种情况。为nginx的指令配置解析提供极大的方便，如果需要自定义解析配置函数，可以拿预设的14种作为借鉴参考。
       http配置模型涉及到的基础是`ngx_http_conf_ctx_t`结构体。结构体内容如下：
   
@@ -71,7 +71,7 @@ nginx的14种预设配置项，支持了包括指令参数为布尔值、数字�
 
 当nginx检测到http{...}这个关键配置项时，http配置模型就启动了，这时会首先建立上述的`ngx_http_conf_ctx_t`结构。http{...}块中通过1个ngx_http_conf_ctx_t结构保存了所有http模块的配置数据结构的入口。
 
-#####4. 解析http配置的流程
+## 4. 解析http配置的流程
 
   
 
@@ -95,7 +95,7 @@ nginx的14种预设配置项，支持了包括指令参数为布尔值、数字�
  18. 最后配置文件处理到了http{...}的尾部，返回给http框架继续处理
  19. 配置文件解析器处理完所有的配置项后会告诉nginx主循环配置项解析完毕，这时nginx才会启动web服务器
 
-#####5.http三种create方法的好处
+## 5.http三种create方法的好处
 上面几节都在讲如何根据不同的配置使用这三种create方法，但是还未深入讲讲这样的好处。
 nginx中对这三种create方法有着独特的内存布局。
 
