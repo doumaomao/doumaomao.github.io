@@ -4,7 +4,7 @@ layout: page
 comments: no
 ---
 
-###个人说明
+## 个人说明
 
 * doumaomao
 * 2014 年硕士毕业
@@ -12,7 +12,7 @@ comments: no
 * 爱吃
 * 技术不好，但是一直在努力。。呜呜呜。。
 
-###欢迎交流
+## 欢迎交流
 
 * 网站：http://doumaomao.github.io/
 * GitHub : https://github.com/doumaomao/
