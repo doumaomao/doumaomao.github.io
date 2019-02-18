@@ -58,10 +58,10 @@ nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-
 .post{padding:.5em 0em;}
 .post ul{padding:.5em 0em;}
 .post .listing2{padding:.5em 0em;border-style:none;}
-h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
-h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
-h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;padding: .5em 0em;margin:0em 0em}
-h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
+h1{font-family:"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
+h2{font-family:"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
+h3{font-family:"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;padding: .5em 0em;margin:0em 0em}
+h4{font-family:"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
 pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
 code{background-color:rgba(208, 208, 208, 0.29);}
 embed,object,iframe{display:block;margin:4px auto;}
