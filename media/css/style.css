@@ -52,8 +52,8 @@ td, th { padding:5px 10px; border:1px solid #886; background:#efefef; }
 .pageNav{font-weight:bold;font-size:17px;}
 .pageNavInvalid{font-weight:bold;font-size:17px;color:#433ec4;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
-nav{font-family:PingFangSC-Light,"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-8em;width:6em;text-align:center;padding: 0em 0em;}
-nav a{display:block;padding:.7em 1em;color:#433ec4;}
+nav{font-family:PingFangSC-Light,"Electrolize",sans-serif;font-size:1.3em;text-transform:uppercase;float:left;margin-left:-8em;width:6em;text-align:center;padding: 0em 0em;}
+nav a{display:block;padding:.7em 1em;color:#555555;}
 nav a:hover{background-color:#433ec4;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
 .post ul{padding:.5em 0em;}
