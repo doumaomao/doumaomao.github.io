@@ -1,4 +1,7 @@
 markdown: rdiscount
+rdiscount:
+  extensions:
+    - generate_toc
 permalink: /:title/
 url: http://doumaomao.github.io/
 #highlighter: pygments
@@ -11,5 +14,5 @@ duoshuo: doumaomao
 weibo: 洁小瑜
 hub: doumaomao
 safe: true
-paginate: 100
+paginate: 50
 about: "持续成长，心情愉悦"
