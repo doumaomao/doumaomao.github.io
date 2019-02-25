@@ -47,14 +47,14 @@ def fib2(n):   # return Fibonacci series up to n
 ```
 
 
-- `from fibo import fib, fib2`，全局符号表中写入了 fib、fib2
+`from fibo import fib, fib2`，全局符号表中写入了 fib、fib2
 
-- `from fibo import *`，全局符号表中会写入除了以_开头的私有变量方法之外的全部定义名，这种方式官方并不建议，可读性差。
+`from fibo import *`，全局符号表中会写入除了以_开头的私有变量方法之外的全部定义名，这种方式官方并不建议，可读性差。
 
-- `import fibo as fib`，等同于`import fibo`，唯一的区别是它具备别名
+`import fibo as fib`，等同于`import fibo`，唯一的区别是它具备别名
 
 
-- module中的定义也可被别名，如`from fibo import fib as fibonacci`
+module中的定义也可被别名，如`from fibo import fib as fibonacci`
 
 ### 1.1 以脚本形式执行module
 
