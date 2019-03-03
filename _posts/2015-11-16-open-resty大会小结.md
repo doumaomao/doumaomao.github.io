@@ -26,8 +26,10 @@ tags: nginx
 ```
  bin  client_body_temp  fastcgi_temp  logs  luajit  lualib  nginx  proxy_temp  scgi_temp  uwsgi_temp
 ```
+
 7. 其中luajit为采用C语言写的Lua的解释器的代码，主要是提高运行效率；lualib里面是openresty本身提供的一些方法，包括redis,db等；nginx内则包含conf、sbin、logs等基本配件。
 8. 新建独立的文件夹openrestry_test文件夹，新建conf子文件夹。新建nginx.conf文件，内容如下：
+
 
 ```
 worker_processes  1;        #nginx worker 数量
@@ -46,6 +48,7 @@ http {
     }
 }
 ```
+
 9. 针对上述6999端口要特别注意，一般办公网内对于端口会做一些安全限制，这块我就踩了坑。。。注意选取合适端口即可。
 10. 搭建成功，访问，展现“hello doumao”
 
@@ -58,19 +61,22 @@ a fast web app server by extending nginx - 这段英文形象解释了openresty�
 具体内容待整理笔记后追加。
 
 ## open-resty实战项目
-https://github.com/doumaomao/apigateway
-https://github.com/openresty/nginx-systemtap-toolkit
-https://github.com/openresty/stapxx
-https://github.com/openresty/nginx-gdb-utils
-https://github.com/agentzh/code2ebook
+
+- https://github.com/doumaomao/apigateway
+- https://github.com/openresty/nginx-systemtap-toolkit
+- https://github.com/openresty/stapxx
+- https://github.com/openresty/nginx-gdb-utils
+- https://github.com/agentzh/code2ebook
 
 ## 偶像们的博客
-https://github.com/agentzh?tab=repositories
-https://github.com/yaoweibin/
-http://jinnianshilongnian.iteye.com/
-https://twitter.com/agentzh
+
+- https://github.com/agentzh?tab=repositories
+- https://github.com/yaoweibin/
+- http://jinnianshilongnian.iteye.com/
+- https://twitter.com/agentzh
 
 ## resty开源社区
-http://openresty.org/
-http://www.oschina.net/question/tag/openresty
+
+- http://openresty.org/
+- http://www.oschina.net/question/tag/openresty
 
