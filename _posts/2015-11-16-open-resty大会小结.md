@@ -27,8 +27,8 @@ tags: nginx
  bin  client_body_temp  fastcgi_temp  logs  luajit  lualib  nginx  proxy_temp  scgi_temp  uwsgi_temp
 ```
 
-7. 其中luajit为采用C语言写的Lua的解释器的代码，主要是提高运行效率；lualib里面是openresty本身提供的一些方法，包括redis,db等；nginx内则包含conf、sbin、logs等基本配件。
-8. 新建独立的文件夹openrestry_test文件夹，新建conf子文件夹。新建nginx.conf文件，内容如下：
+ 7. 其中luajit为采用C语言写的Lua的解释器的代码，主要是提高运行效率；lualib里面是openresty本身提供的一些方法，包括redis,db等；nginx内则包含conf、sbin、logs等基本配件。
+ 8. 新建独立的文件夹openrestry_test文件夹，新建conf子文件夹。新建nginx.conf文件，内容如下：
 
 
 ```
@@ -49,8 +49,8 @@ http {
 }
 ```
 
-9. 针对上述6999端口要特别注意，一般办公网内对于端口会做一些安全限制，这块我就踩了坑。。。注意选取合适端口即可。
-10. 搭建成功，访问，展现“hello doumao”
+ 9. 针对上述6999端口要特别注意，一般办公网内对于端口会做一些安全限制，这块我就踩了坑。。。注意选取合适端口即可。
+ 10. 搭建成功，访问，展现“hello doumao”
 
 ## openresty会议要点
 
