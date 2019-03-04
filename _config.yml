@@ -2,7 +2,7 @@ title: Dou Mao
 
 name: Doumao's homepage
 description:  good good study，day day up.
-url: http://doumaomao.github.io/
+url: http://doumaomao.github.io
 
 # 自定义post url
 permalink: /blog/:title.html
