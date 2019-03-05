@@ -10,7 +10,6 @@ tags: doc
 
 
 
-# Cloudflare官方文档部分摘抄总结
 ## 1 简介
 Cloudflare是一家位于美国的IT企业，Cloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。通过基于反向代理的内容分发网络（Content Delivery Network,CDN）及分布式域名解析服务（Distributed Domain Name Server），Cloudflare可以帮助受保护站点抵御包括拒绝服务攻击在内的大多数网络攻击，确保该网站长期在线，同时提升网站的性能、加载速度以改善访客体验[摘自维基百科]
 ## 2 DNS结构说明
