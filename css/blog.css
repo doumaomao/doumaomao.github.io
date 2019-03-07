@@ -220,7 +220,7 @@ img {
 }
 
 .sidebox ol .active {
-    border-left: 3px solid #c1272d;
+    border-left: 3px solid #19da43;
 }
 
 .sidebox ol li{
@@ -233,7 +233,7 @@ img {
 
 .sidebox .sidebar {
     color: #666;
-    border-left: 0.4em solid #48C9B0;
+    border-left: 0.4em solid #19da43;
 }
 
 ul.posts li {
