@@ -13,6 +13,7 @@ safe: true
 lsi: false
 
 markdown: kramdown
+toc_levels: 1..2
 kramdown:
     input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
     extensions:
