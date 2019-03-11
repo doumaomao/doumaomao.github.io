@@ -7,7 +7,7 @@
 }
 
 body {
-  color: #222;
+  color: #2c3e50;
   text-align: center;
   font-family:PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
   text-rendering: optimizeLegibility;
@@ -54,12 +54,12 @@ table td, table th {
 /* Common */
 
 a {
-  color: #e74c3c;
+  color: #33cccc;
   text-decoration: none;
 }
 
 a:active {
-  color: #255b96;
+  color: #33cccc;
   /*color: #e0115f;*/
 }
 
@@ -73,7 +73,7 @@ a:hover {
 }
 
 a.discreet {
-  color: #222;
+  color: #2c3e50;
 }
 
 .fancy, section, article {
@@ -92,7 +92,7 @@ section{
 .center { text-align: center !important; }
 .right { text-align: right; }
 .spacer {
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid #ecf0f1;
   margin: 2em auto;
 }
 .without-border {
@@ -108,7 +108,7 @@ header {
 .header-container {
   /*border-bottom: 1px solid #eee;*/
   margin-bottom: 1.5em;
-  background: #0515313d; /*#f3f3f3;*/
+  background: #ecf0f1; /*#f3f3f3;*/
 }
 
 header nav {
@@ -123,7 +123,7 @@ nav a {
   font-weight: 700;
   border-bottom: 3px solid transparent;
   font-size: 1.6rem;
-  color: #271271;
+  color: #33cccc;
 }
 
 nav a:last-child {
@@ -132,11 +132,11 @@ nav a:last-child {
 
 nav a:hover {
   text-decoration: none;
-  border-bottom: 3px solid #E74C3C;
+  border-bottom: 3px solid #33cccc;
 }
 
 nav a.selected {
-  color: black;
+  color: #2c3e50;
 }
 
 nav a.selected:hover {
@@ -156,7 +156,7 @@ h1, h2, h3 {
     /*定义标题,字标题字体大小*/
     font-family: Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
     /*定义标题,字标题字体颜色*/
-    color: #00040afa;
+    color: #2980b9;
 }
 
 h1 {
@@ -168,7 +168,7 @@ h1 {
 h1 small {
     font-weight: 400;
     font-size: 50%;
-    color: #999;
+    color: #2c3e50;
 }
 
 h2 {
@@ -201,7 +201,7 @@ section ul{
 /**设置引用格式**/
 blockquote {
   margin: 1em 0 1em 0em;
-  color: #666;
+  color: #33cccc;
   border-left: 0.4em solid #48C9B0;
   padding-left: 0.6em;
   font-style: italic;
@@ -338,7 +338,7 @@ header .logo a, header .logo a:hover {
     transform: rotate(359deg); } }
 
 .links {
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid #33cccc;
   margin: 1em 0;
   list-style-type: none;
   font-size: 1.4em;
@@ -356,7 +356,7 @@ header .logo a, header .logo a:hover {
 footer {
   font-size: small;
   line-height: 2em;
-  color: #858585;
+  color: #2980b9;
   text-align: center;
   margin-top: 3em;
 }
@@ -391,7 +391,6 @@ footer .links a:hover {
   text-decoration: none;
 }
 
-/*添加博客首页为谢一挥的模板样式——开始*/
 .subheader-container {
   margin-bottom: 3.5em;
 }
@@ -417,11 +416,11 @@ header h1.title {
 }
 
 header h1.title a {
-  color: #a00;
+  color: #2c3e50;
 }
 
 header h1.title a:hover {
-  color: #000;
+  color: #2c3e50;
 }
 
 .convinced { /*margin: 6em 0 4em 0;*/}
@@ -469,7 +468,7 @@ header h1.title a:hover {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
-  background-color: #48C9B0;
+  background-color: #33cccc;
   color: #ffffff !important;
   text-decoration: none;
 }
