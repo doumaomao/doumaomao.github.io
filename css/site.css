@@ -36,11 +36,13 @@ p {
     text-align:justify;
     -webkit-text-align-last:justify;/*chrome 20+*/
     font-size: 0.9rem;
+    font-family:PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
     }
 
 table {
   font-size: inherit;
   font: 100%;
+  font-family:PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
   width: 100%;
   border-collapse: collapse;
 }
@@ -77,7 +79,7 @@ a.discreet {
 }
 
 .fancy, section, article {
-  font-family: PingFangSC-Light,Bitter, Georgia, "Helvetica Neue","Hiragino Sans GB",Arial,"微软雅黑",sans-serif;
+  font-family:PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
   line-height: 170%;
 }
 section{
@@ -101,7 +103,7 @@ section{
 
 /* Header and navigation */
 header {
-  font-family: PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
+  font-family:PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
   /*font-weight: bold;*/
 }
 
@@ -154,7 +156,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1, h2, h3 {
     /*定义标题,字标题字体大小*/
-    font-family: Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
+    font-family:PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
     /*定义标题,字标题字体颜色*/
     color: #2980b9;
 }
@@ -204,6 +206,7 @@ blockquote {
   color: #2980b9;
   border-left: 0.4em solid #2c3e50;
   padding-left: 0.6em;
+  font-family:PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
   font-style: italic;
 }
 
