@@ -584,7 +584,7 @@ img[alt=drawing] { width: 60%; }
   /*font-size: 18px;原主题定义的代码字体大小*/
   font-size: 90%;
   background-color: #ecf0f1;
-  border: 1px solid #33cccc;
+  border: 1px solid #ecf0f1;
   padding: 0 .2em;
   font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
   border-radius: 4px;

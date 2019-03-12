@@ -56,7 +56,7 @@ table td, table th {
 /* Common */
 
 a {
-  color: #33cccc;
+  color: #2c3e50;
   text-decoration: none;
 }
 
@@ -158,7 +158,7 @@ h1, h2, h3 {
     /*定义标题,字标题字体大小*/
     font-family:PingFangSC-Light,"Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
     /*定义标题,字标题字体颜色*/
-    color: #2980b9;
+    color: #2c3e50;
 }
 
 h1 {
