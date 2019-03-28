@@ -41,7 +41,7 @@ description: good good study, day day up
 </div>
 <blockquote>
 <ul>
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:5 %}
     <li class="post-list-in-index">
     <small class="post-list-date-in-index">{{ post.date | date_to_string }}</small><a target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
