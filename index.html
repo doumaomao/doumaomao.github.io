@@ -7,35 +7,57 @@ description: good good study, day day up
 
 <section class="about-me inner">
   <h1>
-    <span class="hello">现在最喜欢土豆，球球是土豆的女朋友</span>
-  </h1>
-  <h1>
     <span class="hello">土豆是一只可爱的小狗子</span>
   </h1>
-
   <blockquote>
-  <p>
-  虽然至今为止的道路绝非一片坦途，但想到正因为活着才有机会感受到痛楚，我就成功克服了种种困难。 
-  </p>
   <p>
   事后看来无可避免的事，在当时看来总是毫不明显
   </p>
   </blockquote>
   <p>
-  其实所有纠结做选择的人心里早就有了答案，咨询只是想得到内心所倾向的选择。最终的所谓命运,还是自己一步步走出来的。
+  其实所有纠结做选择的人心里早就有了答案，咨询只是想得到内心所倾向的选择
   </p>
   <p>
-  我们应该创造贴合用户需求的产品，而不是按计划进行的产品。
+  我们应该创造贴合用户需求的产品，而不是按计划进行的产品
   </p>
   <p>
-  最近研究：减脂、咖啡、运动、宠物训练。
+  最近研究：二刷Nginx源码，比以前的理解深刻了一些，但是还有很多欠缺
   </p>
   <p>
-  19/03主题：读书、减肥。
+  19/03主题：读书、减肥、咖啡
   </p>
   <p>
-  19/04主题：golang、array、狗狗训练、饮食减肥。
+  19/04主题：golang、狗狗训练、饮食减肥
   </p>
+  <p>
+  19/05主题：适应组织架构的不断调整、游戏段位到钻石
+  </p>
+  <p>
+  19/06主题：忙着发版，调研新产品实现。另外二刷Redis源码，Nginx源码。Redis相对更好理解一些，Nginx的底层数据结构以及全局变量cycle的设计还没太懂
+  </p>
+</section>
+
+<section class="inner">
+<div class="post-recents-in-index">
+<strong>最近写作</strong>
+</div>
+<blockquote>
+<ul>
+    {% for post in site.posts limit:5 %}
+    <li class="post-list-in-index">
+    <small class="post-list-date-in-index">{{ post.date | date_to_string }}</small><a target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+</blockquote>
+</section>
+
+<section class="inner">
+<div align="left"><img src="tudou1.jpeg"/></div> 
+</section>
+
+<!--<a href="https://github.com/willard-yuan/willard-yuan.github.io"></a>-->
+</section>
 </section>
 
 <section class="inner">
