@@ -1,0 +1,11 @@
+--2019-07-17 19:28:33--  https://www.draw.io/?lightbox=1
+Resolving www.draw.io... 104.20.88.78, 104.20.89.78, 2606:4700:10::6814:594e, ...
+Connecting to www.draw.io|104.20.88.78|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'index.html?lightbox=1'
+
+index.html?lightbox=1                   [<=>                                                                ]       0  --.-KB/s               index.html?lightbox=1                   [ <=>                                                               ]   4.73K  --.-KB/s    in 0s      
+
+2019-07-17 19:28:34 (9.79 MB/s) - 'index.html?lightbox=1' saved [13551]
+
