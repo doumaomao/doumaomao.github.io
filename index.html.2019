@@ -1,0 +1,74 @@
+---
+layout: default
+category: about
+title: 豆毛的个人主页
+description: good good study, day day up
+---
+
+<section class="about-me inner">
+  <h1>
+    <span class="hello">土豆是一只可爱的小狗子</span>
+  </h1>
+  <blockquote>
+  <p>
+  事后看来无可避免的事，在当时看来总是毫不明显
+  </p>
+  </blockquote>
+  <p>
+  其实所有纠结做选择的人心里早就有了答案，咨询只是想得到内心所倾向的选择
+  </p>
+  <p>
+  我们应该创造贴合用户需求的产品，而不是按计划进行的产品
+  </p>
+  <p>
+  最近研究：填坑中，业务、数据一起来
+  </p>
+  <p>
+  19/03主题：读书、减肥、咖啡
+  </p>
+  <p>
+  19/04主题：golang、狗狗训练、饮食减肥
+  </p>
+  <p>
+  19/05主题：适应组织架构的不断调整、游戏段位到钻石
+  </p>
+  <p>
+  19/06主题：忙着发版以及调研新产品实现。另外再看Redis源码，Nginx源码。Redis相对更好理解一些，Nginx的底层数据结构以及全局变量cycle的设计还没太懂
+  </p>
+  <p>
+  19/07主题：继续组织调整，看Nginx源码，沉淀项目中的延展技术，再回粉qghappy，虽然没对他们抱夺冠希望，但是痛弟真的好努力
+  </p>
+  <p>
+  19/08主题：做了一个多月的基于k8s的平台梳理以及应用环境构建迁移，收获满满。接下来，攻克检索架构服务这个点。土豆瘸了，一定要好起来
+  </p>
+  <p>
+  19/09主题：感慨时间过得真快，这一个月很忙，在忙什么，甚至感觉有点抽象，踩了很多的坑，修了好多的bug，却没来得及把自己的文章写起来，真的是差评，希望10月的我可以不要这样，总结不能落下，公众号不能落下
+  </p>
+  <p>
+  19/10主题：过完十一假期，告别了土豆。十月份在工作上很忙，在生活上很懒惰，没学习。迎来送往很多人，减肥还在继续，对于检索架构逐渐熟悉，今年剩下的事情就是抽空把这个整的更明白点
+  </p>
+  <p>
+  20/10主题：
+  </p>
+</section>
+
+<section class="inner">
+<div class="post-recents-in-index">
+<strong>最近写作</strong>
+</div>
+<blockquote>
+<ul>
+    {% for post in site.posts limit:5 %}
+    <li class="post-list-in-index">
+    <small class="post-list-date-in-index">{{ post.date | date_to_string }}</small><a target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+</blockquote>
+</section>
+
+
+
+
+
+<!--<a href="https://github.com/willard-yuan/willard-yuan.github.io"></a>-->
